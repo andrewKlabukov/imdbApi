@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alumni Sans', sans-serif;
+}
+ul {
+    padding: 0px;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    align-items: center;
+}
+.img-movie img {
+    width: 160px;
+    border-radius: 5px;
+}
+.img-movie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    list-style-type: none;
+    width: 160px;
+    margin: 10px;    
+}
+p {
+    font-weight: 400;
+    font-size: 24px;
+    box-sizing: inherit;
+    padding-left: 2px;
+}
